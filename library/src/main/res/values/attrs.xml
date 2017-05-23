@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DownloadView">
+        <!-- 文字大小 -->
+        <attr name="textSize" format="integer" />
+        <!-- 文字颜色 -->
+        <attr name="textColor" format="color" />
+        <!-- 主背景色 -->
+        <attr name="backgroundColor" format="color" />
+        <!-- 进度条背景色 -->
+        <attr name="progressColor" format="color" />
+        <!-- 第一阶段收缩动画时长 -->
+        <attr name="shrinkDuration" format="integer" />
+        <!-- 第二阶段准备动画时长 -->
+        <attr name="prepareRotateAnimDuration" format="integer" />
+        <!-- 第二阶段准备动画旋转速度 -->
+        <attr name="prepareRotateAnimSpeed" format="integer" />
+        <!-- 第三阶段展开动画时长 -->
+        <attr name="expandAnimDuration" format="integer" />
+        <!-- 第四阶段加载旋转速度 -->
+        <attr name="loadRotateAnimSpeed" format="integer" />
+        <!-- 第四阶段正弦小点移动动画时长 -->
+        <attr name="movePointDuration" format="integer" />
+    </declare-styleable>
+</resources>
